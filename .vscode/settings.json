@@ -1,0 +1,33 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "markdownlint.config": {
+    "MD013": { "line_length": 120 },
+    "MD007": { "indent": 2 },
+    "MD029": { "style": "ordered" }
+  },
+  "cSpell.language": "en",
+  "cSpell.words": [
+    "ISO",
+    "PII",
+    "GDPR",
+    "POPIA",
+    "IDA",
+    "ISO9001",
+    "ISO22301",
+    "ISO27001",
+    "ISO27701",
+    "ISO27017",
+    "ISO27018",
+    "ISO45001",
+    "ISO14001"
+  ]
+}

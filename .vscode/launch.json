@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Markdown Linter",
+      "program": "${workspaceFolder}/node_modules/.bin/markdownlint",
+      "args": ["--fix", "**/*.md"]
+    }
+  ]
+}

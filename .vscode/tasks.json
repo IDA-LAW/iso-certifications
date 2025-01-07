@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Lint Markdown Files",
+      "type": "shell",
+      "command": "npx markdownlint '**/*.md' --fix",
+      "problemMatcher": []
+    },
+    {
+      "label": "Spell Check",
+      "type": "shell",
+      "command": "npx cspell '**/*.md'",
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate README Preview",
+      "type": "shell",
+      "command": "markdown-pdf ./README.md",
+      "problemMatcher": []
+    }
+  ]
+}

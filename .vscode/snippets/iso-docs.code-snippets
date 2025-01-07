@@ -1,0 +1,24 @@
+{
+  "ISO Policy Header": {
+    "prefix": "iso-policy",
+    "body": [
+      "# ${1:Policy Name}",
+      "",
+      "## Purpose",
+      "${2:Purpose of this policy.}",
+      "",
+      "## Scope",
+      "${3:Who and what this policy applies to.}",
+      "",
+      "## Policy Statement",
+      "${4:Detailed policy statement.}",
+      "",
+      "## Responsibilities",
+      "${5:Roles and responsibilities for compliance.}",
+      "",
+      "## References",
+      "- ${6:Relevant standards or guidelines.}"
+    ],
+    "description": "ISO policy document header template"
+  }
+}
