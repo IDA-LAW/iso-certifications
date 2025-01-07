@@ -1,4 +1,40 @@
-# Basic multi root API samples
+# IDA LAW - ISO Certifications
+
+## Purpose of the Repository
+
+This repository, hosted at IDA-LAW/iso-certifications, serves as the central hub for documenting and maintaining the policies, processes, and compliance measures required for IDA Law to achieve and sustain ISO certifications. The repository ensures transparency, accountability, and ease of collaboration in implementing best practices aligned with the following ISO standards:
+- ISO/IEC 27001: Information Security Management System
+- ISO 22301: Business Continuity Management System
+- ISO 9001: Quality Management System
+- ISO/IEC 27701: Privacy Information Management System
+- ISO/IEC 27017: Information Security for Cloud Services
+- ISO/IEC 27018: Protection of PII in Public Clouds
+- ISO 45001: Occupational Health and Safety Management
+- ISO 14001: Environmental Management
+
+### Core Objectives
+1. **Documentation of Compliance Measures**
+  - Provide structured and version-controlled policies, procedures, and templates for each ISO certification.
+2. **Continuous Improvement**
+  - Establish workflows and automation to ensure periodic review, updates, and alignment with the latest ISO standards.
+3. **Centralized Collaboration**
+  - Act as the single source of truth for all stakeholders, including legal, IT, compliance, and external auditors, ensuring seamless coordination.
+
+### Repository Components
+- **Policies and Procedures:** Detailed documentation tailored to IDA Law’s operations.
+- **Implementation Steps:** A step-by-step guide for achieving and maintaining compliance with each standard.
+- **Audit Readiness:** Checklists and reports to facilitate internal and external audits.
+- **Automation Tools:** Scripts and workflows to automate document validation, versioning, and report generation.
+
+### Processes Covered
+- Information security management, including access controls, encryption, and incident response.
+- Business continuity planning, including disaster recovery and redundancy measures.
+- Quality assurance for legal and IT services.
+- Protection and management of personal data across cloud and local environments.
+- Health, safety, and environmental responsibility within operations.
+
+### Commitment to Compliance
+IDA Law is committed to maintaining the highest standards of quality, security, and sustainability. This repository is a reflection of that commitment, ensuring that all processes are documented, monitored, and improved continuously.
 
 This extension adds an entry to the status bar that shows the name of the currently active file. To exercise multi root APIs it:
 - only enables itself when more than one `WorkspaceFolder` is opened using `workspace.workspaceFolders` API
@@ -9,20 +45,14 @@ This extension adds an entry to the status bar that shows the name of the curren
 ![Show the folder of the active file](https://raw.githubusercontent.com/Microsoft/vscode-extension-samples/main/basic-multi-root-sample/preview.gif)
 
 ## Table of Contents
-- [Running the example](#running-the-example)
 - [Purpose of the Repository](#purpose-of-the-repository)
+- [Running the example](#running-the-example)
 - [Offices for IDA Law](#offices-for-ida-law)
   - [Johannesburg Office](#johannesburg-office)
   - [Boksburg Office](#boksburg-office)
   - [Cape Town Office](#cape-town-office)
 - [Enhanced VS Code Setup](#enhanced-vs-code-setup)
-
-## Running the example
-
-- Open this example in VS Code
-- `pnpm install`
-- `pnpm run compile`
-- `F5` to start debugging
+- [Technology](#technology)
 
 ## Purpose of the Repository
 
@@ -59,6 +89,13 @@ This repository, hosted at IDA-LAW/iso-certifications, serves as the central hub
 
 ### Commitment to Compliance
 IDA Law is committed to maintaining the highest standards of quality, security, and sustainability. This repository is a reflection of that commitment, ensuring that all processes are documented, monitored, and improved continuously.
+
+## Running the example
+
+- Open this example in VS Code
+- `pnpm install`
+- `pnpm run compile`
+- `F5` to start debugging
 
 ## Offices for IDA Law
 
@@ -313,3 +350,16 @@ Install these additional extensions for enhanced functionality:
 3. Test the setup by running tasks via `Ctrl+Shift+P → Tasks: Run Task`.
 
 This setup will streamline workflows, enforce consistency, and make your project easy to maintain and collaborate on!
+
+## Technology
+
+As a professional firm, we only use the latest state-of-the-art hardware. Our software is regularly kept up to date by our in-house IT Department, which is supported by an outsourced IT Firm.
+
+### IT Infrastructure
+- **Uninterrupted Internet and Email:** Guaranteed by ADSL lines together with backup.
+- **24/7 Server Operations:** Our servers run back-to-back 24 hours a day with an A-Grade firewall.
+- **Off-Site Backups:** Backups are stored off-site and are done on a daily basis.
+- **Uninterrupted Power Supply:** Ensured to maintain continuous operations.
+
+### Software Utilized
+- **Legal Software:** Legalsuite, Microsoft Office, Winded, Butterworths, Deedsearch, LexisNexis
